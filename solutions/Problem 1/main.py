@@ -1,4 +1,4 @@
-def main():
+def solution():
     x=0
     for i in range(1000):
         if i%5==0:
@@ -8,4 +8,4 @@ def main():
     print(x)
 
 if __name__ == "__main__":
-    main()
+    solution()
