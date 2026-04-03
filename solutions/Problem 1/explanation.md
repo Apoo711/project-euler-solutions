@@ -6,7 +6,7 @@
 
 **The Solution:** [Code](./main.py)
 
-We begin by defining our `main()` function. Inside, we initialize a variable `x` to act as an accumulator for the sum of the multiples.  
+We begin by defining our `solution()` function. Inside, we initialize a variable `x` to act as an accumulator for the sum of the multiples.  
 
 A for loop is used to iterate through all integers from `0` up to (but not including) `1000`. For each number, we use the following logic:
 
