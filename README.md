@@ -1,4 +1,5 @@
 # Project Euler Solutions 🧮
+
 Welcome to my repository of [Project Euler](https://projecteuler.net/) solutions!
 
 This repo contains my approaches to solving these mathematical and computational programming challenges. As a student currently navigating Specialist Mathematics and Methods, I use these problems to push my analytical skills and bridge the gap between complex mathematical theory and efficient coding.
@@ -10,9 +11,18 @@ The primary language used in this repository is **Python**. My focus is on writi
 ## Repository Structure
 
 The files are organized sequentially by problem number. Inside each solution file, you will generally find:
+
 - A brief summary of the problem being solved.
 - The executable code for the solution.
 - Comments explaining the underlying mathematical logic or the specific algorithm implemented.
+
+## Helpful Links
+
+I use the following websites to help find formulaae to grow my own mathematical insight, they might help you too.
+
+- [NIST](https://dlmf.nist.gov) - The Digital Library of Mathematical Functions
+- [ProofWiki](https://proofwiki.org/wiki/Main_Page) - Online Compendium of Mathematical Proofs
+- [Wolfram MathWorld](https://mathworld.wolfram.com/) - A Comprehensive Online Encyclopedia of Mathematics
 
 ## Disclaimer
 

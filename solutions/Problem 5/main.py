@@ -1,21 +1,20 @@
-def find_num():
-    num_found = False
+import math
+def approach_1():
     counter=2520
-    num_works = False
-    counter2=0
-    while num_found==False:
-        for i in range(1,20):
+    while True:
+        for i in range(20,10,-1):
             if counter%i!=0:
-                num_works = False
-            else:
-                num_works = True
-                counter2+=1
-        if num_works and counter2==20:
-            num_found = True
+                break
         else:
-            num_found = False
-            counter+=1
-    return counter
+            return counter
+        counter+=2520
+
+def approach_2():
+    ans=1
+    for i in range(1,21):
+        ans=abs(ans * i) // math.gcd(ans, i)
+    return ans
 
 if __name__ == "__main__":
-    print(find_num())
+    print(approach_1())
+    print(approach_2())

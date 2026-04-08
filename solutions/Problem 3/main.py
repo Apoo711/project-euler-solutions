@@ -1,12 +1,11 @@
-
 def original_solution(n) -> int:
     divisor = 2
-    while divisor * divisor <= num:
-        if num % divisor == 0:
-            num //= divisor
+    while divisor * divisor <= n:
+        if n % divisor == 0:
+            n //= divisor
         else:
             divisor += 1
-    return num
+    return n
 
 def optimized_solution(n) -> int:
     while n % 2 == 0:
