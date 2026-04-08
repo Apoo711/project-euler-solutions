@@ -1,12 +1,15 @@
 # Largest Palindrome Product
 
-**Problem:**
+## Problem
+
 > A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is $9009=91\times 99$.  
 > Find the largest palindrome made from the product of two 3-digit numbers.
 
-**Solution:** [Code](./main.py)  
+## Solution
 
-The goal is to find the largest palindrome made form the product of two 3-digit numbers. Instead of checking every possible combination, we iterate downwards form the maximum possible value (999). This ensure that we encounter larger product earlier in the process, allowing us to prune the search space.
+**[Code](./main.py)**  
+
+The goal is to find the largest palindrome made from the product of two 3-digit numbers. Instead of checking every possible combination, I iterate downwards from the maximum possible value (999). This ensure that I encounter larger product earlier in the process, allowing me to prune the search space.
 
 I used the following logic:
 
