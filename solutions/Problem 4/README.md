@@ -9,7 +9,7 @@
 
 **[Code](./main.py)**  
 
-The goal is to find the largest palindrome made from the product of two 3-digit numbers. Instead of checking every possible combination, I iterate downwards from the maximum possible value (999). This ensure that I encounter larger product earlier in the process, allowing me to prune the search space.
+The goal is to find the largest palindrome made from the product of two 3-digit numbers. Instead of checking every possible combination, I iterated downwards from the maximum possible value (999). This ensured that I encounter larger product earlier in the process, allowing me to prune the search space.
 
 I used the following logic:
 
@@ -18,7 +18,7 @@ I used the following logic:
 
 I then made the following optimisations:
 
-1. Because I am iterating `j` downwards, once `i*j` becomes less than or equal to our current `largest`, we know that any further (smaller) `j` values will also produce smaller products. We break the inner loop immediately.
-2. If the square of the current `i` ($i\times i$) is smaller than the `largest` palindrome found so far, it is mathematically impossible for `i` or any smaller number to produce a new record. The entire function gets terminated.
+1. Because I iterated `j` downwards, once `i*j` became less than or equal to the current `largest`, I knew that any further (smaller) `j` values will also produce smaller products. I broke the inner loop immediately.
+2. If the square of the current `i` ($i\times i$) was smaller than the `largest` palindrome found so far, it was mathematically impossible for `i` or any smaller number to produce a new record. The entire function got terminated.
 
-This means that while a standard brute-force check would perform nearly `810,000` iterations for 3-digit numbers, these early breaks allow the algorithm to finish after checking only a tiny fraction fo those combinations.
+This means that while a standard brute-force check would perform nearly `810,000` iterations for 3-digit numbers, these early breaks allowed the algorithm to finish after checking only a tiny fraction of those combinations.

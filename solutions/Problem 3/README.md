@@ -14,7 +14,7 @@ To find the largest prime factor, we repeatedly divide the number $n$ by its sma
 I used the following logic:
 
 - Any integer greater than 1 is either a prime number of can be represented as a product of prime numbers.
-- If a number $n$ has a divisor, at least one of those divisors must be less than or equal to $\sqrt{n}$. This is why I use the condition `d*d<=n` (which is the same as $d\geq\sqrt{n}$). Once $d$ exceeds the square root, what is left of $n$ must be prime.
+- If a number $n$ has a divisor, at least one of those divisors must be less than or equal to $\sqrt{n}$. This is why I used the condition `d*d<=n` (which is the same as $d\geq\sqrt{n}$). Once $d$ exceeds the square root, what is left of $n$ must be prime.
 
 I then made the following optimisations:
 
