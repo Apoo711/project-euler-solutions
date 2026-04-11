@@ -18,7 +18,7 @@ The files are organized sequentially by problem number. Inside each solution fil
 
 ## Helpful Links
 
-I use the following websites to help find formulaae to grow my own mathematical insight, they might help you too.
+I use the following websites to help find formulae to grow my own mathematical insight, they might help you too.
 
 - [NIST](https://dlmf.nist.gov) - The Digital Library of Mathematical Functions
 - [ProofWiki](https://proofwiki.org/wiki/Main_Page) - Online Compendium of Mathematical Proofs
